@@ -94,4 +94,7 @@
     <string name="fast_charging_summary">Deaktivieren, um die vom Gerät beim Laden erzeugte Wärme zu reduzieren oder die Lebensdauer des Akkus zu verlängern</string>
     <string name="restore_hosts_switch_title">hosts Datei beim Update beibehalten</string>
     <string name="restore_hosts_switch_summary">Sichern und Wiederherstellen der /etc/hosts Datei bei einem Update. Dieses ROM liefert eine regelmäßig aktualisierte hosts Datei mit vielen blockierten Werbe-/Malware-Seiten.\nDie Einstellung macht daher nur Sinn bei Verwendung einer Hosts-Editor-App.</string>
+    <string name="captive_portal_switch_title">Captive Portal Erkennung</string>
+    <string name="captive_portal_switch_summary">Ein-/Ausschalten der Captive Portal Erkennung (Vorgabe EIN).</string>
+    <string name="captive_portal_switch_warning">Nach dem Ausschalten der Captive-Portal-Erkennung empfangen Sie keine Verbindungs-Rückmeldung mehr. Wirklich fortfahren?</string>
 </resources>
