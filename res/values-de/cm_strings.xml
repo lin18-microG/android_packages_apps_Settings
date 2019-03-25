@@ -92,4 +92,6 @@
     <string name="connected_tws_device_saved_title">Gespeicherte Kopfhörer</string>
     <string name="fast_charging_title">Schnelles Laden</string>
     <string name="fast_charging_summary">Deaktivieren, um die vom Gerät beim Laden erzeugte Wärme zu reduzieren oder die Lebensdauer des Akkus zu verlängern</string>
+    <string name="restore_hosts_switch_title">hosts Datei beim Update beibehalten</string>
+    <string name="restore_hosts_switch_summary">Sichern und Wiederherstellen der /etc/hosts Datei bei einem Update. Dieses ROM liefert eine regelmäßig aktualisierte hosts Datei mit vielen blockierten Werbe-/Malware-Seiten.\nDie Einstellung macht daher nur Sinn bei Verwendung einer Hosts-Editor-App.</string>
 </resources>
