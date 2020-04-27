@@ -4969,4 +4969,7 @@
     <string name="bluetooth_phonebook_access_notification_content" msgid="4280361621526852063">"Ein nicht vertrauenswürdiges Gerät fordert Zugriff auf deine Kontakte und deine Anrufliste an. Weitere Informationen."</string>
     <string name="bluetooth_phonebook_access_dialog_title" msgid="7624607995928968721">"Möchtest du den Zugriff auf Kontakte und Anrufliste zulassen?"</string>
     <string name="bluetooth_phonebook_access_dialog_content" msgid="4766700015848574532">"Ein nicht vertrauenswürdiges Bluetooth-Gerät (<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g>) möchte auf deine Kontakte und deine Anrufliste zugreifen. Dazu gehören auch Daten über ein- und ausgehende Anrufe.\n\nDu warst bisher noch nicht mit <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g> verbunden."</string>
+    <string name="security_settings_fingerprint_settings_screen_lock_category">Bildschirmsperre</string>
+    <string name="security_settings_fingerprint_settings_use_fingerprint_unlock_phone_title">Entsperren mit Fingerabdruck</string>
+    <string name="security_settings_fingerprint_settings_use_fingerprint_unlock_phone_summary">Entsperren des Bildschirms per Fingerabdruck erlauben. Ist diese Option deaktiviert, können Fingerabdrücke weiterhin in Apps verwendet werden.</string>
 </resources>
