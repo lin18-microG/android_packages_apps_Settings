@@ -5002,4 +5002,7 @@
     <string name="security_settings_fingerprint_settings_screen_lock_category">Bildschirmsperre</string>
     <string name="security_settings_fingerprint_settings_use_fingerprint_unlock_phone_title">Entsperren mit Fingerabdruck</string>
     <string name="security_settings_fingerprint_settings_use_fingerprint_unlock_phone_summary">Entsperren des Bildschirms per Fingerabdruck erlauben. Ist diese Option deaktiviert, können Fingerabdrücke weiterhin in Apps verwendet werden.</string>
+    <string name="sensor_access_summary">Sensorzugriff von Benutzer-Apps kontrollieren</string>
+    <string name="sensor_access_title">Zugriff auf Sensoren</string>
+    <string name="sensor_access_title_empty_text">Keine installierte App hat Sensorzugriff angefordert.</string>
 </resources>
