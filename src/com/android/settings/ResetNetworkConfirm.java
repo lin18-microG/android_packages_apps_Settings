@@ -33,6 +33,7 @@ import android.net.wifi.p2p.WifiP2pManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.RecoverySystem;
+import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.os.UserManager;
 import android.provider.Settings;
@@ -132,6 +133,8 @@ public class ResetNetworkConfirm extends InstrumentedFragment {
 
             Settings.Global.putInt(mContext.getContentResolver(),
                     Settings.Global.CAPTIVE_PORTAL_MODE, 1);
+
+            SystemProperties.set("persist.privacy.iptab_blk", "0");
 
             restoreDefaultApn(mContext);
             return isResetSucceed;
