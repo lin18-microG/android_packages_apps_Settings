@@ -52,6 +52,7 @@ import androidx.appcompat.app.AlertDialog;
 import com.android.settings.core.InstrumentedFragment;
 import com.android.settings.enterprise.ActionDisabledByAdminDialogHelper;
 import com.android.settings.network.ApnSettings;
+import com.android.settings.network.CaptivePortalURLPreferenceController;
 import com.android.settingslib.RestrictedLockUtilsInternal;
 
 /**
@@ -133,6 +134,8 @@ public class ResetNetworkConfirm extends InstrumentedFragment {
 
             Settings.Global.putInt(mContext.getContentResolver(),
                     Settings.Global.CAPTIVE_PORTAL_MODE, 1);
+
+            CaptivePortalURLPreferenceController.ResetCaptivePortalRROs();
 
             SystemProperties.set("persist.privacy.iptab_blk", "0");
 

@@ -172,4 +172,8 @@
     <!-- Iptables Block-script -->
     <string name="ziptables_block_switch_title">Apply iptables block script</string>
     <string name="ziptables_block_switch_summary">Block entire Facebook IP range for all apps and block entire Google IP range for most apps (specific apps on exception list)</string>
+
+    <!-- Captive Portal URLs -->
+    <string name="captive_portal_url_title">Captive Portal Detection Provider</string>
+    <string name="captive_portal_url_summary">%s is contacted to probe, whether a captive portal is used</string>
 </resources>
