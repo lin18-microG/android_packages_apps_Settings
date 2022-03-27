@@ -44,6 +44,12 @@
             android:summary="@string/summary_placeholder"
             settings:keywords="@string/keywords_lockscreen" />
 
+        <SwitchPreference
+            android:key="exec_spawn"
+            android:title="@string/exec_spawn_title"
+            android:summary="@string/exec_spawn_summary"
+            android:persistent="false" />
+
         <Preference
             android:key="fingerprint_settings"
             android:title="@string/security_settings_fingerprint_preference_title"

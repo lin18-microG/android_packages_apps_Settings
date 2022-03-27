@@ -185,6 +185,10 @@
     <string name="captive_portal_url_summary">%s is contacted to probe, whether a captive portal is used</string>
     <string name="captive_portal_toast_success">Captive portal provider has been changed</string>
 
+    <!-- Toggle for Exec-Spawning -->
+    <string name="exec_spawn_title">Enable secure app spawning</string>
+    <string name="exec_spawn_summary">Launch apps in a more secure way than Android which takes slightly longer and increases memory usage by app processes.</string>
+
     <!-- Used in SetupWizard Wi-Fi network selection page [CHAR LIMIT=60] -->
     <string name="wifi_setup_wizard_title">Select Wi\u2011Fi network</string>
 

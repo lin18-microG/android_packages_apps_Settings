@@ -117,6 +117,7 @@ public class SecuritySettings extends DashboardFragment {
         final List<AbstractPreferenceController> securityPreferenceControllers = new ArrayList<>();
         securityPreferenceControllers.add(new FaceStatusPreferenceController(context));
         securityPreferenceControllers.add(new FingerprintStatusPreferenceController(context));
+        securityPreferenceControllers.add(new ExecSpawnPreferenceController(context));
         securityPreferenceControllers.add(new ChangeScreenLockPreferenceController(context, host));
         controllers.add(new PreferenceCategoryController(context, SECURITY_CATEGORY)
                 .setChildren(securityPreferenceControllers));
